@@ -2,7 +2,7 @@ from turtle import *
 import colorsys
 
 # Agregar el texto en la cabecera
-header_text = "PROGRAMEX # BY PROGRAMEX"
+header_text = "JOSUE"
 color("white")  # Color del texto
 penup()
 goto(-180, 250)  # Posición del texto
@@ -33,7 +33,7 @@ goto(0, 0)
 pendown()
 for i in range(16):
     for j in range(18):
-        color("yellow")  # Todos los pétalos son amarillos
+        color("white")  # Todos los pétalos son amarillos
         h += 0.005
         rt(90)
         circle(150 - j * 6, 90)
